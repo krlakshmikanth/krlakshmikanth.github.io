@@ -27,6 +27,9 @@ url: "https://krlakshmikanth.com/" # the base hostname & protocol for your site,
 github_username:  krlakshmikanth
 linkedin_username: krlakshmikanth
 
+# Google Analytics
+google_analytics: ENV['GA_TRACKING_ID']
+
 # Build settings
 theme: minima
 plugins:
