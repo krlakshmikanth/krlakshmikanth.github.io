@@ -28,7 +28,7 @@ github_username:  krlakshmikanth
 linkedin_username: krlakshmikanth
 
 # Google Analytics
-google_analytics: GTM-TDCLHMF8
+google_analytics: ENV['GA_TRACKING_ID']
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
