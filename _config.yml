@@ -22,11 +22,13 @@ title: Insights from the Experienced
 email: lakshmikanthrajamani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am a software engineering professional, writes about engineering, food and economics.
-baseurl: "https://blog.krlakshmikanth.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://krlakshmikanth.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  krlakshmikanth
 linkedin_username: krlakshmikanth
 
+# Google Analytics
+google_analytics: GTM-TDCLHMF8
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
