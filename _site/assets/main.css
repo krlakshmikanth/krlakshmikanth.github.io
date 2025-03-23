@@ -1,6 +1,7 @@
 /**
  * Reset some basic elements
  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -644,6 +645,47 @@ table td {
 }
 .highlight .il {
   color: #099;
+}
+
+/* Apple-style font configuration */
+:root {
+  --apple-system: -apple-system, BlinkMacSystemFont, "Inter", "SF Pro Text", "SF Pro Display", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--apple-system);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--apple-system);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.site-title {
+  font-family: var(--apple-system);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-title {
+  font-family: var(--apple-system);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.post-content {
+  font-family: var(--apple-system);
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.post-meta {
+  font-family: var(--apple-system);
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=main.css.map */
