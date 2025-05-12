@@ -73,6 +73,5 @@ minima:
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: auto
 
-  # suppress the warnings
+  # GitHub Pages compatible settings
   sass:
-    quiet_deps: true
