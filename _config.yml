@@ -72,3 +72,7 @@ minima:
   # solarized-dark	   Dark variant of solarized color scheme.
   # solarized	         Adaptive skin for solarized color scheme skins.
   skin: auto
+
+  # suppress the warnings
+  sass:
+    quiet_deps: true
