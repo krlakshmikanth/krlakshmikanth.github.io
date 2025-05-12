@@ -4,22 +4,111 @@ layout: default
 ---
 
 <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
+  .error-container {
+    margin: 30px auto;
+    max-width: 800px;
     text-align: center;
+    font-family: var(--apple-system);
   }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
+  .error-code {
+    margin: 20px 0;
+    font-size: 6em;
+    font-weight: 700;
     line-height: 1;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
+    color: #333;
+  }
+  .error-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin: 20px 0;
+  }
+  .error-title {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #333;
+  }
+  .error-message {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  .error-suggestion {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px 0;
+  }
+  .error-suggestion h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  .error-suggestion ul {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .error-suggestion li {
+    margin: 10px 0;
+  }
+  .home-button {
+    display: inline-block;
+    background-color: #2b7be3; /* Requested blue color */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .penguin-quote {
+    font-style: italic;
+    color: #666;
+    max-width: 500px;
+    margin: 30px auto;
+    position: relative;
+    padding: 0 20px;
+  }
+  .penguin-quote:before, .penguin-quote:after {
+    content: '"';
+    font-size: 2em;
+    position: absolute;
+    opacity: 0.3;
+  }
+  .penguin-quote:before {
+    left: 0;
+    top: -10px;
+  }
+  .penguin-quote:after {
+    right: 0;
+    bottom: -20px;
   }
 </style>
 
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="error-container">
+  <h1 class="error-code">404</h1>
+  
+  <img src="/assets/images/penguins-404.jpg" alt="Group of penguins looking confused" class="error-image">
+  
+  <h2 class="error-title">Oops! These penguins can't find your page</h2>
+  
+  <p class="error-message">
+    It seems our penguin navigation team has waddled off in the wrong direction.
+    The page you're looking for has either been moved, renamed, or never existed in the first place.
+  </p>
+  
+  <div class="error-suggestion">
+    <h3>Why not try one of these instead?</h3>
+    <ul>
+      <li>Check the URL for typos (penguins aren't great typists either)</li>
+      <li>Head back to the <a href="/">homepage</a> and start fresh</li>
+      <li>Try using the navigation menu above</li>
+      <li>Look for what you need in the recent posts</li>
+    </ul>
+  </div>
+  
+  <a href="/" class="home-button">Return to Home</a>
 </div>
