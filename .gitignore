@@ -1,0 +1,18 @@
+# Jekyll site files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Ruby environment files
+.bundle/
+vendor/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Environment variables
+.env
