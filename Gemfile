@@ -20,6 +20,8 @@ end
 
 # Add webrick as it's no longer bundled with Ruby
 gem "webrick", "~> 1.8"
+gem "jekyll-import", "~> 0.25"
+gem "rss", "~> 0.3"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
